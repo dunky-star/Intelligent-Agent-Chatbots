@@ -41,8 +41,11 @@ for conversation in conversations_ids:
 def clean_text(text):
     text = text.lower()
     text = re.sub(r"i'm", "i am", text)
+    text = re.sub(r"i ' m", "i am", text)
     text = re.sub(r"he's", "he is", text)
+    text = re.sub(r"he ' s", "he is", text)
     text = re.sub(r"she's", "she is", text)
+    text = re.sub(r"let's", "let us", text)
     text = re.sub(r"that's", "that is", text)
     text = re.sub(r"that ' s", "that is", text)
     text = re.sub(r"what's", "what is", text)
@@ -68,7 +71,7 @@ def clean_text(text):
     text = re.sub(r"isn't", "is not", text)
     text = re.sub(r"can't", "cannot", text)
     text = re.sub(r"can ' t", "cannot", text)
-    text = re.sub(r"[-()\"#/@;:<>{}+=~|.?,]", "", text)
+    text = re.sub(r"[-()\"#/@;:<>{}+=~|.?,!]", "", text)
     return text
 
 # Cleaning the questions
