@@ -16,6 +16,24 @@ conversations = open('movie_dialog/movie_conversations.txt', encoding = 'utf-8',
 # Creating a dictionary that maps each line and its id
 id2line = {}
 for line in lines:
-    _line = line.split(' +++$+++ ')
+    _line = line.split(' +++$+++ ') # _ specifies that it is a temporary variable
     if len(_line) == 5:
         id2line[_line[0]] = _line[4]
+        
+        
+# Creating a list of all of the conversations
+conversations_ids = []
+for conversation in conversations[:-1]:
+    _conversation = conversation.split(' +++$+++ ')[-1][1:-1].replace("'", "").replace(" ", "")
+    conversations_ids.append(_conversation.split(','))
+    
+    
+# Getting separately the questions and the answers
+questions = []
+answers = []
+for conversation in conversations_ids:
+    for i in range(len(conversation) - 1):
+        questions.append(id2line[conversation[i]])
+        answers.append(id2line[conversation[i+1]])
+
+    
