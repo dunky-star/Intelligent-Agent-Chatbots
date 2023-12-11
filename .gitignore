@@ -39,11 +39,9 @@ build/
 /.vscode/
 
 ### Anaconda ###
-/MNISTFashion_archive/
-pcn_logic_eg.py
+*.zip
 perceptron.py
-/.ipynb_checkpoints/
-Perceptron-1960-ML.ipynb
+/movie_dialog/
 /__pycache__/
 *.pkl
 
