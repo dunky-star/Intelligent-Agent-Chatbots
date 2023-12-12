@@ -3,7 +3,8 @@
 
 # Importing the libraries
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import re # This helps in cleaning the data
 import time
 
@@ -317,7 +318,7 @@ min_learning_rate = 0.0001
 keep_probability = 0.5
 
 # Defining a session
-tf.reset_default_graph()
+tf.compat.v1.reset_default_graph()
 session = tf.InteractiveSession()
  
 # Loading the model inputs
@@ -439,4 +440,4 @@ for epoch in range(1, epochs + 1):
     if early_stopping_check == early_stopping_stop:
         print("My apologies, I cannot speak better anymore. This is the best I can do.")
         break
-print("Game Over")
+print("Quitting...")
