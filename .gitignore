@@ -37,6 +37,7 @@ build/
 /.idea/
 .env
 /.vscode/
+*.emb
 *.txt
 
 
