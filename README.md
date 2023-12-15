@@ -21,3 +21,11 @@ The winning team:
 	3. Deo Mugabe
 	4. Duc Phi Ngo
 
+## Packages to install in the environment
+	
+	1. python -m venv dunky  -> To create virtual environment
+	2. cd /dunky -> Change directory to the newly created virtual envornment
+	3. Scripts/activate -> To activate virtual environment in Windows
+	4. source/activate -> To activate virtual environment on MacBook
+	5. pip install "openai<1.0.0" langchain
+	6. pip install chromadb
