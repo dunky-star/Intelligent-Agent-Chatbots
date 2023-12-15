@@ -21,7 +21,7 @@ The winning team:
 	3. Deo Mugabe
 	4. Duc Phi Ngo
 
-## Packages to install in the environment
+## How to run the program (packages to install)
 	
 	1. python -m venv dunky  -> To create virtual environment
 	2. cd /dunky -> Change directory to the newly created virtual envornment
