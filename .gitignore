@@ -35,8 +35,10 @@ build/
 .vscode/
 =======
 /.idea/
-
+.env
 /.vscode/
+*.txt
+
 
 ### Anaconda ###
 *.zip
@@ -44,6 +46,5 @@ perceptron.py
 /movie_dialog/
 /__pycache__/
 *.pkl
-
 
 
