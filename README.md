@@ -30,5 +30,5 @@ The winning team:
 	5. pip install "openai<1.0.0" langchain
 	6. pip install chromadb
 	7. Create a .env file inside the root directory of the project
-	7. Get OpenAI api_key and add it to the .env file with content: OPENAI_API_KEY= <your key>
+	7. Get OpenAI api_key, put it inside .env file [file content]: OPENAI_API_KEY= <your key>
 	
