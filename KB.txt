@@ -1,0 +1,400 @@
+{
+  "customer_interactions": [
+       {
+      "interaction_id": 1,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-02T05:30:00",
+      "channel": "chat",
+      "message": "Hi there! group3 support",
+      "agent_response": "Hi there! This is group3 agent support, how may I help you?.",
+      "resolved": true
+    },
+	      {
+      "interaction_id": 2,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-02T05:30:00",
+      "channel": "chat",
+      "message": "Hi there!",
+      "agent_response": "Hi there! This is group3 agent support, we are here to help you.",
+      "resolved": true
+    },
+		      {
+      "interaction_id": 3,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-02T05:30:00",
+      "channel": "chat",
+      "message": "Hey there!",
+      "agent_response": "Hi there! This is group3 agent support, we are here to help you.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 7,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:30:00",
+      "channel": "chat",
+      "message": "Hello, I have an issue with my recent order.",
+      "agent_response": "Hi there! I'm sorry to hear that. Could you please provide your order number so I can assist you better?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 8,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:35:00",
+      "channel": "chat",
+      "message": "My order number is ABC123",
+      "agent_response": "Thank you for providing the order number. I'll check the status for you.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 9,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:40:00",
+      "channel": "chat",
+      "message": "I appreciate your help.",
+      "agent_response": "You're welcome! If you have any more questions, feel free to ask.",
+      "resolved": true
+    },
+      {
+      "interaction_id": 10,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:40:00",
+      "channel": "chat",
+      "message": "Have you completed to check? Update the status please",
+      "agent_response": "Yes, your order is shipped and the tracking number is ORD-111-222-ENROUTE",
+      "resolved": true
+    },
+          {
+      "interaction_id": 11,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:40:00",
+      "channel": "chat",
+      "message": "Have you completed to check? Update the status please",
+      "agent_response": "Yes, your order is shipped and the tracking number is ORD-111-222-ENROUTE",
+      "resolved": true
+    },
+    {
+      "interaction_id": 12,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:00:00",
+      "channel": "email",
+      "message": "Dear group3 support team, I'm facing issues with my account login.",
+      "agent_response": "Hello, thank you for reaching out. Can you provide your account username? We'll look into it.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 13,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:15:00",
+      "channel": "chat",
+      "message": "My username is user123.",
+      "agent_response": "Got it, user123. Let me check your account and get back to you shortly.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 13,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:30:00",
+      "channel": "chat",
+      "message": "Thank you for your assistance.",
+      "agent_response": "You're welcome! We'll notify you once the login issue is resolved.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 14,
+      "customer_id": "CUST480",
+      "timestamp": "2023-12-01T08:30:00",
+      "channel": "chat",
+      "message": "Hello, I have an issue with my recent order.",
+      "agent_response": "Hi there! I'm sorry to hear that. Could you please provide your order number so I can assist you better?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 15,
+      "customer_id": "CUST480",
+      "timestamp": "2023-12-01T08:35:00",
+      "channel": "chat",
+      "message": "My order number is XYZ123.",
+      "agent_response": "Thank you for providing the order number. I'll check the status for you.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 16,
+      "customer_id": "CUST480",
+      "timestamp": "2023-12-01T08:40:00",
+      "channel": "chat",
+      "message": "I appreciate your help.",
+      "agent_response": "You're welcome! If you have any more questions, feel free to ask.",
+      "resolved": true
+    },
+        {
+      "interaction_id": 44,
+      "customer_id": "CUST480",
+      "timestamp": "2023-12-01T08:35:00",
+      "channel": "chat",
+      "message": "Please update the status or order number XYZ123.",
+      "agent_response": "Thank you for providing the order number. Sorry to inform you that this order has been canceled because we don't ship to your location.",
+      "resolved": false
+    },
+       {
+      "interaction_id": 15,
+      "customer_id": "CUST480",
+      "timestamp": "2023-12-01T08:40:00",
+      "channel": "chat",
+      "message": "I appreciate your help.",
+      "agent_response": "You're welcome! If you have any more questions, feel free to ask.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 16,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:00:00",
+      "channel": "email",
+      "message": "Dear support team, I'm facing issues with my account login.",
+      "agent_response": "Hello, thank you for reaching out. Can you provide your account username? We'll look into it.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 17,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:15:00",
+      "channel": "email",
+      "message": "My username is user123.",
+      "agent_response": "Got it, user123. Let me check your account and get back to you shortly.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 18,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:30:00",
+      "channel": "email",
+      "message": "Thank you for your assistance.",
+      "agent_response": "You're welcome! We'll notify you once the login issue is resolved.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 19,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T10:45:00",
+      "channel": "phone",
+      "message": "I need help with a billing discrepancy on my recent statement.",
+      "agent_response": "Certainly! Could you please provide the transaction details or reference number?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 20,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T11:00:00",
+      "channel": "phone",
+      "message": "The transaction ID is XYZ123.",
+      "agent_response": "Thank you. Let me review the transaction and get back to you with a resolution.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 21,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T11:30:00",
+      "channel": "phone",
+      "message": "I appreciate your prompt assistance.",
+      "agent_response": "You're welcome! Resolving the issue is our top priority. We'll update you shortly.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 22,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:30:00",
+      "channel": "chat",
+      "message": "Hello, I'm having trouble placing an order on your website.",
+      "agent_response": "Hi there! I'm sorry for the inconvenience. Could you please specify the issue you're facing during the order process?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 23,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:35:00",
+      "channel": "chat",
+      "message": "I'm getting an error when trying to add items to my cart.",
+      "agent_response": "Thank you for letting us know. We'll look into this immediately. In the meantime, could you try refreshing the page and clearing your browser cache?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 24,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:40:00",
+      "channel": "chat",
+      "message": "I've tried that, but the issue persists.",
+      "agent_response": "I appreciate your patience. We're investigating the issue further. Could you let us know the browser and device you're using?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 25,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:45:00",
+      "channel": "chat",
+      "message": "I'm using Google Chrome on my laptop.",
+      "agent_response": "Thank you. We'll include that information in our investigation. Meanwhile, is there anything specific you're trying to order?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 26,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:50:00",
+      "channel": "chat",
+      "message": "I'm trying to order a pair of shoes and a shirt.",
+      "agent_response": "Got it. We'll ensure your items are added to the cart once the issue is resolved. We apologize for any inconvenience caused.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 27,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:00:00",
+      "channel": "phone",
+      "message": "I need assistance in placing an order over the phone.",
+      "agent_response": "Certainly! I'll be happy to help you with that. Please provide the details of the items you'd like to order.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 28,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:15:00",
+      "channel": "phone",
+      "message": "I'd like to order a laptop and a wireless mouse.",
+      "agent_response": "Great choice! Let me check the availability and guide you through the order process. May I have your shipping address, please?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 29,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:30:00",
+      "channel": "phone",
+      "message": "My shipping address is 123 Main Street, Cityville.",
+      "agent_response": "Thank you. I'll ensure your order is placed successfully. You'll receive an order confirmation shortly.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 30,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T10:45:00",
+      "channel": "email",
+      "message": "I added items to my cart, but the order isn't going through.",
+      "agent_response": "I apologize for the inconvenience. Could you provide the names or IDs of the items you're trying to order? We'll investigate and assist you.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 31,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T11:00:00",
+      "channel": "email",
+      "message": "I'm trying to order a blender and a set of kitchen knives.",
+      "agent_response": "Thank you for the details. We'll prioritize your order and ensure a smooth checkout process. Please check your email for updates.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 32,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:30:00",
+      "channel": "chat",
+      "message": "Hello, I have an issue with my recent order.",
+      "agent_response": "Hi there! I'm sorry to hear that. Could you please provide your order number so I can assist you better?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 33,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:35:00",
+      "channel": "chat",
+      "message": "My order number is ABC123.",
+      "agent_response": "Thank you for providing the order number. I'll check the status for you.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 34,
+      "customer_id": "CUST123",
+      "timestamp": "2023-12-01T08:40:00",
+      "channel": "chat",
+      "message": "I appreciate your help.",
+      "agent_response": "You're welcome! If you have any more questions, feel free to ask.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 35,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:00:00",
+      "channel": "email",
+      "message": "Dear group3 support team, I'm facing issues with my account login.",
+      "agent_response": "Hello, thank you for reaching out. Can you provide your account username? We'll look into it.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 36,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:15:00",
+      "channel": "email",
+      "message": "My username is user123.",
+      "agent_response": "Got it, user123. Let me check your account and get back to you shortly.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 37,
+      "customer_id": "CUST456",
+      "timestamp": "2023-12-02T14:30:00",
+      "channel": "email",
+      "message": "Thank you for your assistance.",
+      "agent_response": "You're welcome! We'll notify you once the login issue is resolved.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 38,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T10:45:00",
+      "channel": "phone",
+      "message": "I need help with a billing discrepancy on my recent statement.",
+      "agent_response": "Certainly! Could you please provide the transaction details or reference number?",
+      "resolved": false
+    },
+    {
+      "interaction_id": 39,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T11:00:00",
+      "channel": "phone",
+      "message": "The transaction ID is XYZ456.",
+      "agent_response": "Thank you. Let me review the transaction and get back to you with a resolution.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 40,
+      "customer_id": "CUST789",
+      "timestamp": "2023-12-03T11:30:00",
+      "channel": "phone",
+      "message": "I appreciate your prompt assistance.",
+      "agent_response": "You're welcome! Resolving the issue is our top priority. We'll update you shortly.",
+      "resolved": true
+    },
+    {
+      "interaction_id": 41,
+      "customer_id": "CUST567",
+      "timestamp": "2023-12-04T09:15:00",
+      "channel": "web",
+      "message": "I want to place an order for a laptop. How can I proceed?",
+      "agent_response": "Great choice! You can add the laptop to your cart and proceed to checkout. If you face any issues, let me know.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 42,
+      "customer_id": "CUST567",
+      "timestamp": "2023-12-04T09:30:00",
+      "channel": "web",
+      "message": "I added the laptop to my cart. What's the next step?",
+      "agent_response": "Perfect! Now, you can review your cart, enter your shipping details, and choose a payment method to complete the order.",
+      "resolved": false
+    },
+    {
+      "interaction_id": 43,
+      "customer_id": "CUST567",
+      "timestamp": "2023-12-04T10:00:00",
+      "channel": "web",
+      "message": "Thanks for the guidance. I'll proceed with the order now.",
+      "agent_response": "You're welcome! If you encounter any issues during checkout, feel free to reach out. Happy shopping!",
+      "resolved": true
+    }
+  ]
+}
